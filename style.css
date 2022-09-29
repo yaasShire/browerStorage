@@ -1,0 +1,64 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.212);
+}
+.mainHolder{
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, black, gray
+    );
+}
+.emailHolder, .passworHolder{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 18px
+    color: #fff;
+}
+label{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
+#btn{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 255, 0.801);
+    color: white;
+    cursor: pointer;
+}
+#btn:hover{
+    transform: scale(0.9);
+}
